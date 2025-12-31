@@ -1,0 +1,14 @@
+<section class="jumbotron p-5 text-white">
+  <h1 class="floating">Expertos en crear momentos únicos</h1>
+  <p class="floating">Y otras cosas ricas también...</p>
+</section>
+
+<h2>{{ titulo }}</h2>
+
+<div class="container-fluid servicios">
+  <div class="row g-4">
+    <div class="col-12 col-md-4" *ngFor="let t of tentaciones">
+      <app-cafe-card [cafe]="t" baseRoute="tentate"></app-cafe-card>
+    </div>
+  </div>
+</div>

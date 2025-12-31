@@ -1,0 +1,30 @@
+<div *ngIf="item; else noEncontrado" class="container mt-4 detalle">
+  <div class="row g-4 align-items-start">
+    <div class="col-12 col-lg-7">
+      <img
+        [src]="'/assets/img/' + item.imagen"
+        [alt]="item.nombre"
+        class="img-fluid rounded shadow detalle-img"
+      />
+    </div>
+
+    <div class="col-12 col-lg-5">
+      <span class="badge bg-light text-dark mb-2">ACOMPAÑAMIENTO</span>
+      <h1 class="mb-3">{{ item.nombre }}</h1>
+      <p class="descripcion mb-4">{{ item.descripcion }}</p>
+
+      <a routerLink="/acompanamientos" class="btn btn-outline-light">
+        ← Volver a Acompañamientos
+      </a>
+    </div>
+  </div>
+</div>
+
+<ng-template #noEncontrado>
+  <div class="container mt-4">
+    <h2>Acompañamiento no encontrado 🥐</h2>
+    <a routerLink="/acompanamientos" class="btn btn-outline-light mt-3">
+      Volver
+    </a>
+  </div>
+</ng-template>

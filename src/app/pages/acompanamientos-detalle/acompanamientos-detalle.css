@@ -1,0 +1,16 @@
+.detalle-img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.descripcion {
+  opacity: 0.92; /* más oscuro/legible sin quedar negro */
+  line-height: 1.6;
+}
+
+.detalle-img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}

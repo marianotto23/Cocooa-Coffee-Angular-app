@@ -1,0 +1,38 @@
+<div *ngIf="cafe; else noEncontrado" class="container mt-4 cafe-detail-enter">
+  <div class="row g-4 align-items-start">
+    <!-- IZQUIERDA -->
+    <div class="col-12 col-md-6">
+      <img
+        [src]="'/assets/img/' + cafe.imagen"
+        [alt]="cafe.nombre"
+        class="img-fluid mb-3 rounded shadow cafe-image"
+      />
+    </div>
+
+    <!-- DERECHA -->
+    <div class="col-12 col-md-6">
+      <span class="badge cafe-badge mb-2">{{ cafe.slug }}</span>
+      <h1 class="mb-3 cafe-title">{{ cafe.nombre }}</h1>
+
+      <p class="cafe-description mb-4">
+        {{ cafe.descripcion }}
+      </p>
+
+    <div class="container mt-4">
+        <a routerLink="/cafe" class="btn btn-outline-light mb-3">
+         ← Volver a Cafés
+    </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<ng-template #noEncontrado>
+  <div class="container mt-4">
+    <h2>Café no encontrado ☕</h2>
+    <p>Probá volver al listado y elegir otro.</p>
+    <a routerLink="/cafe" class="btn btn-outline-light mt-2">← Volver</a>
+  </div>
+</ng-template>

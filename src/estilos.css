@@ -1,0 +1,210 @@
+/* =========================
+   GOOGLE FONTS
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Seymour+One&display=swap');
+
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #f5f5f5;
+  background-color: rgb(8, 102, 97);
+  margin-bottom: 0;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  position: relative;
+  height: auto;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.nav-link {
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.nav-link:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* =========================
+   JUMBOTRON / BANNER
+========================= */
+.jumbotron {
+  height: 550px;
+}
+
+h1 {
+  margin-top: 100px;
+  font-weight: 600;
+}
+
+.jumbotron p {
+  margin-top: 94px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.jumbotron .floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+/* =========================
+   TITULOS DE SECCION
+========================= */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(8, 102, 97);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+/* =========================
+   NOSOTROS
+========================= */
+.nright {
+  background-color: rgb(8, 102, 97);
+}
+
+h3 {
+  color: white;
+  font-size: 45px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.nright p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* =========================
+   SERVICIOS / CARDS VIEJAS
+========================= */
+.servicios {
+  background-color: rgb(8, 102, 97);
+  border: 2px solid rgb(8, 102, 97);
+}
+
+.feat {
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.feat h4 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.feat p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.feat img {
+  object-fit: cover;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+
+.footer-container p {
+  margin: 0;
+  color: white;
+}
+
+.footer-container img {
+  width: 250px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.footer-container img:hover {
+  transform: scale(1.2);
+}
+
+.footer-container .red {
+  width: 55px;
+  margin: 0 10px;
+}
+
+.logo {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* =========================
+   MEDIA QUERIES
+========================= */
+@media (max-width: 767px) {
+  .navbar-brand { font-size: 28px; }
+  .nav-link { font-size: 24px; }
+
+  h1 { margin-top: 50px; }
+  .jumbotron p { margin-top: 50px; font-size: 20px; }
+
+  .feat h4 { font-size: 22px; }
+  .nright p, .feat p { font-size: 16px; }
+
+  .footer-container img { width: 150px; }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar-brand { font-size: 30px; }
+  .nav-link { font-size: 26px; }
+
+  h1 { margin-top: 80px; }
+  .jumbotron p { margin-top: 80px; font-size: 22px; }
+
+  .feat h4 { font-size: 24px; }
+  .nright p, .feat p { font-size: 18px; }
+
+  .footer-container img { width: 200px; }
+}

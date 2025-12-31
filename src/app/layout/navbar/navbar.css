@@ -1,0 +1,33 @@
+.navbar {
+  background-color: rgba(8, 102, 97, 0.8);
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  position: relative; /* antes estaba absolute */
+  top: 0;
+  left: 0;
+  padding: 10px 16px;
+}
+
+.navbar-brand {
+  font-size: 22px; /* antes 32 */
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 18px; /* antes 30 */
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+}
+
+.nav-link:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.active-link {
+  text-decoration: underline;
+  font-weight: 700;
+}

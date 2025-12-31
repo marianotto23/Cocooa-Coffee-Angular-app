@@ -1,0 +1,26 @@
+<a
+  *ngIf="routerLink; else cardNormal"
+  [routerLink]="routerLink"
+  class="text-decoration-none text-reset"
+>
+  <ng-container *ngTemplateOutlet="cardContent"></ng-container>
+</a>
+
+<ng-template #cardNormal>
+  <ng-container *ngTemplateOutlet="cardContent"></ng-container>
+</ng-template>
+
+<ng-template #cardContent>
+  <div class="card cafe-card h-100">
+    <img
+      class="card-img-top"
+      [src]="'/assets/img/' + cafe.imagen"
+      [alt]="cafe.nombre"
+    />
+
+    <div class="card-body">
+      <h4 class="card-title">{{ cafe.nombre }}</h4>
+      <p class="card-text">{{ cafe.descripcion }}</p>
+    </div>
+  </div>
+</ng-template>

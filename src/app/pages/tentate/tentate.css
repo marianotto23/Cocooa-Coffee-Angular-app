@@ -1,0 +1,22 @@
+/* Texto normal */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Títulos grandes / banners */
+.display-font {
+  font-family: "Seymour One", sans-serif;
+}
+
+/* Texto decorativo */
+.accent-font {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Seymour One", sans-serif;
+  font-weight: 800;
+  color: white;
+  margin: 2rem 0;
+}
