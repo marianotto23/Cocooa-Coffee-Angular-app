@@ -20,3 +20,13 @@ Este proyecto fue creado como práctica de frontend para afianzar conceptos de A
 
 ## 📂 Estructura del proyecto
 
+```txt
+src/
+├── app/
+│   ├── pages/        # Páginas principales (home, café, tentate, etc.)
+│   ├── layout/       # Navbar y Footer
+│   ├── shared/       # Componentes reutilizables (cards)
+│   ├── data/         # Datos simulados (cafés, tentaciones, acompañamientos)
+│   └── app.routes.ts # Rutas de la aplicación
+└── assets/
+    └── img/          # Imágenes del proyecto

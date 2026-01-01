@@ -1,16 +1,14 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
-
-/* ✅ Importo TODAS las fuentes que usamos */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Seymour+One&display=swap");
 
-/* Reset + base global */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ✅ Fuente base global (para TODO lo que no sea “display”) */
+/* Fuente base global */
 body {
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, sans-serif;
@@ -19,13 +17,13 @@ body {
   margin-bottom: 0;
 }
 
-/* Mantener coherencia en textos */
+/* Textos */
 h1, h2, h3, h4, p {
   color: inherit;
 }
 
 /* -----------------------------
-   JUMBOTRON / BANNER
+    JUMBOTRON / BANNER
 ------------------------------ */
 .jumbotron {
   background-image: url("/assets/img/jum.jpeg");
@@ -71,7 +69,7 @@ h1, h2, h3, h4, p {
 }
 
 /* -----------------------------
-   TÍTULOS DE SECCIÓN
+    TÍTULOS DE SECCIÓN
 ------------------------------ */
 .section-title {
   text-align: center;
@@ -83,14 +81,9 @@ h1, h2, h3, h4, p {
   font-family: "Seymour One", sans-serif;
 }
 
-/* Si querés que TODOS los h2 se vean así (opcional)
-h2 {
-  font-family: "Seymour One", sans-serif;
-}
-*/
 
 /* -----------------------------
-   CARDS (hover)
+    CARDS (hover)
 ------------------------------ */
 .cafe-card:hover {
   transform: scale(1.02);

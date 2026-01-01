@@ -1,7 +1,7 @@
 .cafe-card {
   overflow: hidden;
 
-  /* 👇 hover suave */
+  /* hover */
   transition: transform 200ms ease, box-shadow 200ms ease;
   will-change: transform;
 }

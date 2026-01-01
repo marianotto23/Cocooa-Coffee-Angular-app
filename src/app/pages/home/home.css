@@ -15,10 +15,10 @@
 
 :host {
   display: block;
-  color: #fff; /* <- clave para que no quede oscuro */
+  color: #fff; 
 }
 
-/* sección nosotros */
+
 .nosotros {
   padding: 0 0 20px 0;
 }
@@ -35,7 +35,7 @@
   padding: 32px;
 }
 
-/* cards propuestas */
+/* Cards */
 .feat {
   overflow: hidden;
   transition: transform 200ms ease, box-shadow 200ms ease;

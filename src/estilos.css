@@ -1,10 +1,10 @@
 /* =========================
-   GOOGLE FONTS
+    GOOGLE FONTS
 ========================= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Seymour+One&display=swap');
 
 /* =========================
-   RESET
+    RESET
 ========================= */
 * {
   margin: 0;
@@ -13,7 +13,7 @@
 }
 
 /* =========================
-   BASE
+    BASE
 ========================= */
 body {
   font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -23,7 +23,7 @@ body {
 }
 
 /* =========================
-   NAVBAR
+    NAVBAR
 ========================= */
 .navbar {
   position: relative;
@@ -49,7 +49,7 @@ body {
 }
 
 /* =========================
-   JUMBOTRON / BANNER
+    JUMBOTRON / BANNER
 ========================= */
 .jumbotron {
   height: 550px;
@@ -77,7 +77,7 @@ h1 {
 }
 
 /* =========================
-   TITULOS DE SECCION
+    TITULOS DE SECCION
 ========================= */
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -90,7 +90,7 @@ h2 {
 }
 
 /* =========================
-   NOSOTROS
+    NOSOTROS
 ========================= */
 .nright {
   background-color: rgb(8, 102, 97);
@@ -111,7 +111,7 @@ h3 {
 }
 
 /* =========================
-   SERVICIOS / CARDS VIEJAS
+    SERVICIOS / CARDS VIEJAS
 ========================= */
 .servicios {
   background-color: rgb(8, 102, 97);
@@ -141,7 +141,7 @@ h3 {
 }
 
 /* =========================
-   FOOTER
+    FOOTER
 ========================= */
 .footer-container {
   display: flex;
@@ -181,7 +181,7 @@ h3 {
 }
 
 /* =========================
-   MEDIA QUERIES
+    MEDIA QUERIES
 ========================= */
 @media (max-width: 767px) {
   .navbar-brand { font-size: 28px; }

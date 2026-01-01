@@ -2,19 +2,19 @@
   background-color: rgba(8, 102, 97, 0.8);
   font-family: "Bebas Neue", sans-serif;
   width: 100%;
-  position: relative; /* antes estaba absolute */
+  position: relative; 
   top: 0;
   left: 0;
   padding: 10px 16px;
 }
 
 .navbar-brand {
-  font-size: 22px; /* antes 32 */
+  font-size: 22px; 
 }
 
 .nav-link {
   color: white !important;
-  font-size: 18px; /* antes 30 */
+  font-size: 18px; 
   margin-left: 10px;
 }
 

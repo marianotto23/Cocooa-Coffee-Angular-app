@@ -34,7 +34,6 @@
   </div>
 </div>
 
-<!-- Propuestas -->
 <h2 class="section-title">Te presentamos algunas de nuestras propuestas</h2>
 
 <div class="container-fluid servicios">
@@ -47,7 +46,6 @@
           <h4 class="card-title">{{ p.titulo }}</h4>
           <p class="card-text">{{ p.descripcion }}</p>
 
-          <!-- Link opcional para llevar a una sección -->
           <a *ngIf="p.link" class="btn btn-outline-light mt-2" [routerLink]="p.link">
             Ver más
           </a>

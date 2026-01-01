@@ -6,7 +6,7 @@
 }
 
 .descripcion {
-  opacity: 0.92; /* más oscuro/legible sin quedar negro */
+  opacity: 0.92; 
   line-height: 1.6;
 }
 
