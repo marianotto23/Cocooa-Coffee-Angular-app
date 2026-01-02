@@ -5,6 +5,9 @@ Incluye navegación por secciones, listado de productos, páginas de detalle y u
 
 Este proyecto fue creado como práctica de frontend para afianzar conceptos de Angular moderno (standalone components, routing, data binding y organización de carpetas).
 
+🔗 **Demo online**:  
+https://delicate-gecko-3b0363.netlify.app/
+
 ---
 
 ## 🚀 Tecnologías utilizadas
@@ -15,6 +18,19 @@ Este proyecto fue creado como práctica de frontend para afianzar conceptos de A
 - CSS3
 - Angular Router
 - Git & GitHub
+
+---
+
+## 🧠 Qué se trabajó en este proyecto
+
+- Arquitectura de **SPA con Angular**
+- Routing y navegación entre secciones
+- Componentes standalone y reutilizables
+- Separación clara entre lógica (TypeScript) y vista (HTML)
+- Manejo de datos simulados
+- Estilos modulares por componente
+- Organización de carpetas escalable
+- Deploy productivo en Netlify
 
 ---
 
@@ -30,3 +46,16 @@ src/
 │   └── app.routes.ts # Rutas de la aplicación
 └── assets/
     └── img/          # Imágenes del proyecto
+
+🛠️ Instalación y uso
+git clone https://github.com/marianotto23/Cocooa-Coffee-Angular-app.git
+cd cocoa-coffee-angular
+npm install
+ng serve
+
+
+##👤 Autor
+
+Mariano Ottolini
+Frontend Developer en formación
+🔗 GitHub: https://github.com/marianotto23
